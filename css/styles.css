@@ -1,0 +1,12 @@
+body {
+    background-color: #FFFF65;
+}
+
+.card-img-top {
+    height:600px;
+    max-width: 100%;
+}
+
+.card-body {
+    background-color:#F35588;;
+}
