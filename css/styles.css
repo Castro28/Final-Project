@@ -3,10 +3,13 @@ body {
 }
 
 .card-img-top {
-    height:600px;
     max-width: 100%;
-}
-
+    height: 600px;
+    object-fit: contain;
+    background-color: #F35588;
+  }
+  
+  
 .card-body {
-    background-color:#F35588;;
+    background-color:#F35588;
 }
