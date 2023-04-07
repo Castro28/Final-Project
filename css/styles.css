@@ -2,14 +2,28 @@ body {
     background-color: #FFFF65;
 }
 
+h1, h2 {
+    font-family:'Zeyada', cursive;
+    font-weight: bold;
+}
+
 .card-img-top {
     max-width: 100%;
     max-height: 400px;
-    object-fit: contain;
-    background-color: #F35588;
+    object-fit: cover;
   }
   
   
 .card-body {
-    background-color:#F35588;
+    background-color:#da042a;
+}
+
+.img-fluid {
+    max-width: 100%;
+    max-height: 200px;
+    object-fit: cover; 
+}
+
+.card{
+    background-color: #FFFF65;
 }
