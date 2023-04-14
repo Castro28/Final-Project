@@ -1,0 +1,19 @@
+body {
+font-family:'Zeyada', cursive;
+}
+.card {
+    height: 100%;
+  }
+  
+  .card-title {
+    margin-bottom: 0;
+  }
+  
+  .card-text {
+    height: 125px;
+    overflow-y: auto;
+  }
+  
+  h1,h2{
+    font-family:'Zeyada', cursive;
+  }
