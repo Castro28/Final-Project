@@ -14,3 +14,7 @@ font-family:'Zeyada', cursive;
     overflow-y: auto;
     
   }
+
+  .logo{
+    max-height: 70px;
+}
