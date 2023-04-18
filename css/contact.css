@@ -22,7 +22,7 @@
     object-fit: cover;   
   }
 
-  h2{
+  h2,.display-2{
     font-family:'Zeyada', cursive;
     font-weight: bold;
   }
