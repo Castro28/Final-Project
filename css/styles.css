@@ -2,6 +2,10 @@ body {
     background-color: #ffff65;
 }
 
+.logo{
+    max-height: 70px;
+}
+
 h1, h2 {
     font-family:'Zeyada', cursive;
     font-weight: bold;

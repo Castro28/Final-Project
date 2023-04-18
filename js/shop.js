@@ -16,7 +16,8 @@ const addToCartBtn = document.getElementById('addToCartBtn');
     cartItems.push(item);
     updateCart();
   }
-  
+
+
   function updateCart() {
     const tableBody = document.querySelector("#shoppingCartModal tbody");
     let html = "";
