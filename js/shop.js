@@ -32,3 +32,10 @@ const addToCartBtn = document.getElementById('addToCartBtn');
     });
     tableBody.innerHTML = html;
   }
+
+  function remove(){
+    const card = target.closest(".card");
+    const title = card.querySelector(".card-title").textContent;
+    cartItems.push(item);
+    updateCart();
+  }
