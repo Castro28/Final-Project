@@ -39,3 +39,8 @@ const addToCartBtn = document.getElementById('addToCartBtn');
     updateCart(); 
   }
   
+
+function myFunction() {
+  const x = document.getElementById("mySelect");
+  x.remove(0);
+}
