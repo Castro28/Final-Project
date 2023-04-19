@@ -66,7 +66,7 @@
     </div>
   </header>
 
-  <!-- modal shopping cart -->
+  <!-- modal shopping cart button -->
   <div class="d-flex justify-content-end sticky-top mx-3">
     <button type="button" class="shopping-cart btn btn-dark text-success " data-bs-toggle="modal"
       data-bs-target="#shoppingCartModal"><span><i class="fa-solid fa-cart-shopping fa-beat me-3"></i></span>
@@ -94,15 +94,17 @@
               </tr>
             </thead>
 
+            <tbody>
+
 <!-- add JavaScript function  -->
 
-            <tbody>
             </tbody>
           </table>
         </div>
         <div class="modal-footer">
           <button type="button" class="btn border-dark bg-light text-dark" data-bs-dismiss="modal">Close</button>
           <button type="button" class="btn border-dark bg-light text-dark">Checkout</button>
+          <button type="button" class="btn border-dark bg-light text-dark" onclick="emptyCart()">Empty Cart</button>
         </div>
       </div>
     </div>

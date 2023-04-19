@@ -27,17 +27,15 @@ const addToCartBtn = document.getElementById('addToCartBtn');
           <td>${item.title}</td>
           <td>$${item.price.toFixed(2)}</td>
           <td>1</td>
-          <td>${item.Total}</td>
+          <td>${item.total = 0}</td>
         </tr>
       `;
     });
     tableBody.innerHTML = html;
   }
 
-  /*function remove(){
-    const card = target.closest(".card");
-    const title = card.querySelector(".card-title").textContent;
-    cartItems.push(item);
-    updateCart();
+  function emptyCart() {
+    cartItems = []; 
+    updateCart(); 
   }
-  */
+  
